@@ -1,0 +1,42 @@
+.home {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url("../../assets/elearn-backgroung.jpg");
+    background-size: cover;
+    background-position: center;
+    
+  
+    .home-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 100px;
+      padding-left: 30px;
+  
+      h1 {
+        font-size: 36px;
+        color: white;
+        margin-bottom: 20px;
+  
+        @media (max-width: 768px) {
+          font-size: 28px;
+        }
+      }
+  
+      p {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 40px;
+  
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+      }
+  
+      button {
+        padding: 20px 24px;
+      }
+    }
+  }
+  
+ 
